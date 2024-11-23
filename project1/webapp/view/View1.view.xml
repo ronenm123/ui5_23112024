@@ -2,6 +2,6 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-        <content />
+    <Input id="inp1" value="{/students/5/name}"></Input>   
     </Page>
 </mvc:View>
